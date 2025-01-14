@@ -16,7 +16,7 @@ $(call inherit-product, device/sprd/HSL67E_G/device.mk)
 
 PRODUCT_DEVICE := HSL67E_G
 PRODUCT_NAME := omni_HSL67E_G
-PRODUCT_BRAND := 凌度
+PRODUCT_BRAND := Vados
 PRODUCT_MODEL := HSL67E-G
 PRODUCT_MANUFACTURER := sprd
 
