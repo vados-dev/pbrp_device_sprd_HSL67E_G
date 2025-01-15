@@ -5,6 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_HSL67E_G-user
-add_lunch_combo omni_HSL67E_G-userdebug
 add_lunch_combo omni_HSL67E_G-eng
