@@ -31,9 +31,9 @@ TARGET_NO_BOOTLOADER := true
 TARGET_SCREEN_DENSITY := 320
 # Touchscreen based on landscape screen but TWRP displays portraitly
 # This option makes touchscreen portrait 
-#RECOVERY_TOUCHSCREEN_SWAP_XY:= true
+RECOVERY_TOUCHSCREEN_SWAP_XY:= true
 # This option flips the value of touch x-axis
-#RECOVERY_TOUCHSCREEN_FLIP_X:= true
+RECOVERY_TOUCHSCREEN_FLIP_X:= true
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
@@ -91,7 +91,7 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
-TW_THEME := landscape_hdpi
+TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
